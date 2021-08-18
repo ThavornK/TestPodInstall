@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "$(git config user.name)" => "$(git config user.email)" }
-    s.source       = { :http => 'https://s3-ap-southeast-1.amazonaws.com/ekosdk-release/ios-uikit/2.0.4/uikit.zip' }
+    s.source       = { :http => 'https://cocoapodtest.s3.ap-southeast-1.amazonaws.com/UIKit.zip' }
     s.vendored_frameworks = 'Distribution/AmityUIKit.xcframework', 'Distribution/AmitySDK.xcframework', 'Distribution/Realm.xcframework'
     s.platform = :ios
     s.swift_version = "5"
